@@ -2,7 +2,6 @@ Clone the repo: git clone git@github.com:menvil/neo4jfriends.git
 Install Laravel: composer install --prefer-dist
 Change your database settings in app/config/database.php at the neo4j section
 
-Migrate your database: php artisan migrate
 Seed your database: php artisan db:seed --class=UserSeeder
 Make php artisan key:generate
 Make sure that "public" directory is the root directory
